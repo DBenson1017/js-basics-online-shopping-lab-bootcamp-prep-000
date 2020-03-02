@@ -28,3 +28,14 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   // write your code here
 }
+
+var musicians = [];
+var instruments = [];
+var music = []; // the function should add / creat this 
+
+ function theBeatlesPlay(musicians, instruments) {
+  for ( let i = 0; musicians.length < 5; i++) {
+    var string = musicians[i] + " plays " + instruments[i] + ".";
+    music.push(string);}
+    return music;
+}
